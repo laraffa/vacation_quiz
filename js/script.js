@@ -61,7 +61,6 @@ $(function() {
     }
 
 
-
     if (kauaiscore > parisscore && kauaiscore > shanghaiscore && kauaiscore > aspenscore) {
       $('#kauai').show();
     }else if (parisscore > kauaiscore && parisscore > shanghaiscore && parisscore > aspenscore) {
@@ -69,7 +68,7 @@ $(function() {
     }else if (shanghaiscore > kauaiscore && shanghaiscore > parisscore && shanghaiscore > aspenscore) {
       $('#shanghai').show();
     }else {
-      $('#apsen').show();
+      $('#aspen').show();
     }
 
     event.preventDefault();
