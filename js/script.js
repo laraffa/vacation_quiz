@@ -6,7 +6,7 @@ $(function() {
     var q4 = $('input[name=question4]:checked', '#quiz').val();
     var q5 = $('input[name=question5]:checked', '#quiz').val();
     var kauaiscore = 0;
-    var pariscore = 0;
+    var parisscore = 0;
     var shanghaiscore = 0;
     var aspenscore = 0;
 
@@ -61,14 +61,14 @@ $(function() {
     }
 
 
-    if (kauaiscore > parisscore && kauaiscore > shanghaiscore && kauaiscore > aspenscore) {
-      $('#kauai').show();
+    if (aspenscore > parisscore && aspenscore > shanghaiscore && aspenscore > kauaiscore) {
+      $('#aspen').show();
     }else if (parisscore > kauaiscore && parisscore > shanghaiscore && parisscore > aspenscore) {
       $('#paris').show();
     }else if (shanghaiscore > kauaiscore && shanghaiscore > parisscore && shanghaiscore > aspenscore) {
       $('#shanghai').show();
     }else {
-
+      $('#kauai').show();
     }
 
     event.preventDefault();
