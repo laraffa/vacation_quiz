@@ -68,7 +68,7 @@ $(function() {
     }else if (shanghaiscore > kauaiscore && shanghaiscore > parisscore && shanghaiscore > aspenscore) {
       $('#shanghai').show();
     }else {
-      $('#aspen').show();
+
     }
 
     event.preventDefault();
