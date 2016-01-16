@@ -11,53 +11,53 @@ $(function() {
     var aspenscore = 0;
 
     if (q1 === 'kauai') {
-      kauaiscore += 3;
+      kauaiscore += 2;
     }else if (q1 === 'paris') {
-      parisscore += 3;
+      parisscore += 2;
     }else if (q1 === 'shanghai') {
-      shanghaiscore += 3;
+      shanghaiscore += 2;
     }else {
-      aspenscore += 3;
+      aspenscore += 2;
     }
 
     if (q2 === 'kauai') {
-      kauaiscore += 3;
+      kauaiscore += 2;
     }else if (q2 === 'paris') {
-      parisscore += 3;
+      parisscore += 2;
     }else if (q2 === 'shanghai') {
-      shanghaiscore += 3;
+      shanghaiscore += 2;
     }else {
-      aspenscore += 3;
+      aspenscore += 2;
     }
 
     if (q3 === 'kauai') {
-      kauaiscore += 3;
+      kauaiscore += 2;
     }else if (q3 === 'paris') {
-      parisscore += 3;
+      parisscore += 2;
     }else if (q3 === 'shanghai') {
-      shanghaiscore += 3;
+      shanghaiscore += 2;
     }else {
-      aspenscore += 3;
+      aspenscore += 2;
     }
 
     if (q4 === 'kauai') {
-      kauaiscore += 3;
+      kauaiscore += 2;
     }else if (q4 === 'paris') {
-      parisscore += 3;
+      parisscore += 2;
     }else if (q4 === 'shanghai') {
-      shanghaiscore += 3;
+      shanghaiscore += 2;
     }else {
-      aspenscore += 3;
+      aspenscore += 2;
     }
 
     if (q5 === 'kauai') {
-      kauaiscore += 3;
+      kauaiscore += 2;
     }else if (q5 === 'paris') {
-      parisscore += 3;
+      parisscore += 2;
     }else if (q5 === 'shanghai') {
-      shanghaiscore += 3;
+      shanghaiscore += 2;
     }else {
-      aspenscore += 3;
+      aspenscore += 2;
     }
 
 
@@ -68,7 +68,7 @@ $(function() {
     }else if (shanghaiscore > kauaiscore && shanghaiscore > parisscore && shanghaiscore > aspenscore) {
       $('#shanghai').show();
     }else {
-      $('#kauai').show();
+      $('#kauai').show(); 
     }
 
     event.preventDefault();
